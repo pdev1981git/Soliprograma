@@ -23,7 +23,7 @@ public class Soliprograma {
 	System.out.println(saludo);
 	saludo = saludo.toUpperCase();
 	System.out.println(saludo);
-	String [] saludoPartido1 = saludo.split(" ");
+	String saludoPartido1 [] = saludo.split(" ");
 	for (String palabra : saludoPartido1){
 		System.out.println(palabra);
 	}
