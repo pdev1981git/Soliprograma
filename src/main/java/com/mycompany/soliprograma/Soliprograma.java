@@ -16,7 +16,7 @@ public class Soliprograma {
         System.out.println(numTot);    */
         
         
-        String saludo = "hola que tal?";
+        String saludo = "hola que tal como te va?";
 	System.out.println(saludo.toUpperCase());
 	System.out.println(saludo);
 	saludo = "hola y chau";
