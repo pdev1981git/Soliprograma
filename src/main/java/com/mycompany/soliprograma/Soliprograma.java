@@ -5,6 +5,25 @@ public class Soliprograma {
 
     public static void main(String[] args) {
         
+        
+        char letras[] = {'a','b','c','d'};
+        int numeros[] = new int[]{1,37,16};
+
+        for(int i=0;i<numeros.length;i++){
+
+            if (numeros[i] < 30) {
+
+            System.out.println(letras[i+1]);
+
+            } else {
+
+            System.out.println(numeros[i]);
+
+}
+            
+
+}
+        
        /* int numInicio = 5;
         int numFinal = 14;
         String numTot = "Hola";
@@ -15,7 +34,7 @@ public class Soliprograma {
         numInicio++;}
         System.out.println(numTot);    */
         
-        
+        /*
         String saludo = "hola que tal como te va?";
 	System.out.println(saludo.toUpperCase());
 	System.out.println(saludo);
@@ -28,6 +47,7 @@ public class Soliprograma {
 		System.out.println(palabra);
 	}
 	System.out.println(saludo.length());
+        */
 
     }
         
